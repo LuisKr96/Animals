@@ -1,13 +1,15 @@
 package com.tsi.krumbacher.luis.Animals;
 
-
+import org.junit.jupiter.api.Test;
 import org.junit.Test;
 
 public class TestAnimal {
 
 @Test
 static void testFoodEaten() {
-    Animal testFoodEaten = new Animal()
+    Cat newCat = new Cat();
+    assert
+
 
 
 }
