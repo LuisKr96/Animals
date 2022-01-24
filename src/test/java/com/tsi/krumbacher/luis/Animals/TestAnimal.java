@@ -6,12 +6,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestAnimal {
 
-@Test
- void testLifeExpectancy() {
-    Cat testAnimal = new Cat();
-    testAnimal.eat("worm");
-    assertEquals(11, testAnimal.getSize(), "");
+    @Test
+    void testSizeMethod() {
+        Cat newCat = new Cat();
+        newCat.drink();
 
+        assertEquals(100, newCat.getSize(), "TESTING");
+    }
 
 
 
@@ -22,4 +23,4 @@ public class TestAnimal {
 
 
 
-}
+
