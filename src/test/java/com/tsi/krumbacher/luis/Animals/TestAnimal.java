@@ -5,6 +5,12 @@ import org.junit.Test;
 
 public class TestAnimal {
 
+@Test
+static void testFoodEaten() {
+    Animal testFoodEaten = new Animal()
+
+
+}
 
 
 

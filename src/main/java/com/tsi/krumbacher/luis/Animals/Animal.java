@@ -7,6 +7,6 @@ public abstract class Animal {
 
 
     public static void eat(String food){
-        System.out.println("Ate a mouse");
+        System.out.println(food);
     }
 }
