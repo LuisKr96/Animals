@@ -6,8 +6,11 @@ public class Main {
 
 
     public static void main(String[] args){
+        Cat newCat = new Cat();
 
-        Animal.eat("mouse");
+
+
+
 
 
 

@@ -1,14 +1,20 @@
 package com.tsi.krumbacher.luis.Animals;
 
 import org.junit.jupiter.api.Test;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class TestAnimal {
 
 @Test
-static void testFoodEaten() {
-    Cat newCat = new Cat();
-    assert
+ void testLifeExpectancy() {
+    Cat testAnimal = new Cat();
+    testAnimal.eat("worm");
+    assertEquals(11, testAnimal.getSize(), "");
+
+
+
+
 
 
 

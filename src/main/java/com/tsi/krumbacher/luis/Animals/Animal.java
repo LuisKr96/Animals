@@ -3,10 +3,21 @@ package com.tsi.krumbacher.luis.Animals;
 public abstract class Animal {
 
 
-    private String food = "mouse";
+    private int animalLegs;
+    private int animalYears;
 
-
-    public static void eat(String food){
-        System.out.println(food);
+    public Animal(){
+        animalLegs =4;
+        animalYears =12;
     }
+
+    public abstract void eat(String food);
+
+
+
+
+
+
+
+
 }

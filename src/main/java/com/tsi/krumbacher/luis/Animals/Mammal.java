@@ -5,6 +5,7 @@ public abstract class Mammal extends Animal {
     private int sizeInLength;
     private int weight;
     private String name;
+    private int size = 10;
 
 
 
@@ -22,6 +23,14 @@ public abstract class Mammal extends Animal {
         weight = 50;
         name = "Tiger";
 
+    }
+
+    public int getSize(){
+        return size;
+    }
+
+    public void setSize(int size){
+        this.size = size;
     }
 
 
