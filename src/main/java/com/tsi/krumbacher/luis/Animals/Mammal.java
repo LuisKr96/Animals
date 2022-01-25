@@ -7,15 +7,28 @@ public abstract class Mammal extends Animal {
     private String name;
     private int size = 100;
 
-    public abstract String animalSound();
+
+    public String animalSound(){
+        System.out.println();
+        String myString = "test";
+        return myString;
+    }
+
+    public Mammal(){
+        int sizeInLength;
+        int weight;
+        String name;
+
+    }
 
 
     public int getSize(){
         return size;
     }
 
-    public void setSize(int size){
+    public int setSize(int size){
         this.size = size;
+        return size;
     }
 
 
@@ -26,13 +39,6 @@ public abstract class Mammal extends Animal {
 
     public int getMammalSize(){
         return sizeInLength;
-    }
-
-    public Mammal(){
-        sizeInLength = 20;
-        weight = 50;
-        name = "Tiger";
-
     }
 
     public Mammal(String mammalName, int weightInKg){

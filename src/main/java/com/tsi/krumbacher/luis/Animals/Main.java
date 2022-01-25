@@ -16,33 +16,15 @@ public class Main {
 
         cat.eat();
 
-        Bat newBat = new Bat();
+        Bat newBat = new Bat("Vampire", 50);
         newBat.foodToEat = "insects";
         newBat.colour = "grey";
+        newBat.sound = "Dont know";
         newBat.animalSound();
         newBat.eat();
         newBat.colour();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(newBat.foodToEat + " " + newBat.colour + " " + newBat.sound + " " + newBat.animalSound() + " " + newBat.eat());
 
     }
 

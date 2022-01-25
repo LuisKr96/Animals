@@ -1,7 +1,12 @@
 package com.tsi.krumbacher.luis.Animals;
 
-public class Cat extends Mammal {
+public class Cat extends Mammal  {
     int sizeInCm;
+
+    /* public Cat(String mammalName, int weightInKg) {
+        super(mammalName, weightInKg);
+    } */
+
 
 
 
