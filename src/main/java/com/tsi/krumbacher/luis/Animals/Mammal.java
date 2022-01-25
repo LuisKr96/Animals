@@ -7,9 +7,7 @@ public abstract class Mammal extends Animal {
     private String name;
     private int size = 100;
 
-    public void animalSound(){
-        System.out.println("The decible levels go up");
-    }
+    public abstract String animalSound();
 
 
     public int getSize(){

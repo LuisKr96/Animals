@@ -11,8 +11,8 @@ public class Cat extends Mammal {
 
 
 
-    public void animalSound(){
-        System.out.println("The cat meows");
+    public String animalSound(){
+        return "The cat meows";
     }
 
 
