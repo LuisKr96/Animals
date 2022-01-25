@@ -12,12 +12,16 @@ public class Main {
         cat.sizeInCm = 80;
         cat.animalSound();
 
-        System.out.println("The Cat likes to eat "+ cat.foodToEat + ", is " + cat.colour + " and is " +cat.sizeInCm + " in CM");
+        System.out.println("The Cat likes to eat "+ cat.foodToEat + ", is " + cat.colour + " and is " +cat.sizeInCm + " CM");
 
-        cat.drink();
+        cat.eat();
 
         Bat newBat = new Bat();
+        newBat.foodToEat = "insects";
+        newBat.colour = "grey";
         newBat.animalSound();
+        newBat.eat();
+        newBat.colour();
 
 
 

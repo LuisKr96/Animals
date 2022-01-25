@@ -9,8 +9,7 @@ public class TestAnimal {
     @Test
     void testSizeMethod() {
         Cat newCat = new Cat();
-        newCat.drink();
-
+        newCat.eat();
         assertEquals(100, newCat.getSize(), "TESTING");
     }
 
