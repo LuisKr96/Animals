@@ -6,25 +6,40 @@ public class Main {
 
 
     public static void main(String[] args){
-        Cat cat = new Cat();
+        Cat cat = new Cat("Ricardo");
         cat.foodToEat = "Mice";
         cat.colour ="Ginger";
         cat.sizeInCm = 80;
         cat.animalSound();
+        cat.setAge(15);
+
+        System.out.println(cat.getAge());
 
         System.out.println("The Cat likes to eat "+ cat.foodToEat + ", is " + cat.colour + " and is " +cat.sizeInCm + " CM");
 
-        cat.eat();
 
-        Bat newBat = new Bat("Vampire", 50);
+        Bat newBat = new Bat("Vampire");
         newBat.foodToEat = "insects";
-        newBat.colour = "grey";
+        newBat.colour = "red";
         newBat.sound = "Dont know";
-        newBat.animalSound();
-        newBat.eat();
+
+
+        System.out.println(newBat.foodToEat + " " + newBat.colour + " " + newBat.sound);
+
+        newBat.name = "Gary";
+        newBat.printName();
+
         newBat.colour();
 
-        System.out.println(newBat.foodToEat + " " + newBat.colour + " " + newBat.sound + " " + newBat.animalSound() + " " + newBat.eat());
+        newBat.makeASound();
+        newBat.sleep();
+        newBat.eatFood();
+
+        newBat.setAge(16);
+        System.out.println("The Bats age is " + newBat.getAge());
+
+         /* + " " + newBat.animalSound() + " " + newBat.eat()); */
+
 
     }
 

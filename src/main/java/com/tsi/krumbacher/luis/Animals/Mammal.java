@@ -4,15 +4,8 @@ public abstract class Mammal extends Animal {
 
     private int sizeInLength;
     private int weight;
-    private String name;
     private int size = 100;
 
-
-    public String animalSound(){
-        System.out.println();
-        String myString = "test";
-        return myString;
-    }
 
     public Mammal(){
         int sizeInLength;

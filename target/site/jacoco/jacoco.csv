@@ -1,6 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Animals,com.tsi.krumbacher.luis.Animals,Mammal,24,15,0,0,9,6,5,1,5,1
-Animals,com.tsi.krumbacher.luis.Animals,Animal,16,9,0,0,6,4,4,1,4,1
-Animals,com.tsi.krumbacher.luis.Animals,Bat,5,0,0,0,2,0,2,0,2,0
-Animals,com.tsi.krumbacher.luis.Animals,Main,48,0,0,0,15,0,2,0,2,0
+Animals,com.tsi.krumbacher.luis.Animals,Mammal,23,14,0,0,9,6,4,3,4,3
+Animals,com.tsi.krumbacher.luis.Animals,Animal,12,3,0,0,5,1,4,1,4,1
+Animals,com.tsi.krumbacher.luis.Animals,Bat,0,11,0,0,0,5,0,2,0,2
+Animals,com.tsi.krumbacher.luis.Animals,Main,68,0,0,0,17,0,2,0,2,0
 Animals,com.tsi.krumbacher.luis.Animals,Cat,0,5,0,0,0,2,0,2,0,2

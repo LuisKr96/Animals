@@ -2,6 +2,11 @@ package com.tsi.krumbacher.luis.Animals;
 
 public class Cat extends Mammal  {
     int sizeInCm;
+    String nameOfCat;
+
+    public Cat(String name){
+        nameOfCat = name;
+    }
 
     /* public Cat(String mammalName, int weightInKg) {
         super(mammalName, weightInKg);
@@ -18,6 +23,14 @@ public class Cat extends Mammal  {
 
     public String animalSound(){
         return "The cat meows";
+    }
+
+    public void makeASound() {
+        System.out.println("Meow");
+    }
+
+    public void sleep() {
+        System.out.println("ZZZ");
     }
 
 

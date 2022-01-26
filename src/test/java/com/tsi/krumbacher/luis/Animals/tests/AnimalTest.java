@@ -10,14 +10,14 @@ public class AnimalTest {
 
     @Test
     public void testGetSize() {
-        Cat newCat = new Cat();
+        Cat newCat = new Cat("Daisy");
        assertEquals(100, newCat.getSize(), "TESTING");
     }
 
     @Test
     public void testAnimalSound(){
-        Bat newBat = new Bat("John", 40);
-        Cat newCat = new Cat();
+        Bat newBat = new Bat("John");
+        Cat newCat = new Cat("Harry");
 
         String resultOfSound = newBat.animalSound();
         assertEquals("BIG SOUND", resultOfSound,"Test failed");
@@ -28,11 +28,28 @@ public class AnimalTest {
 
     @Test
     public void testSetSize(){
-        Bat newBat = new Bat("Gareth", 100);
+        Bat newBat = new Bat("Gareth");
 
         int sizeInCm = newBat.setSize(30);
         assertEquals(30, sizeInCm, "error");
     }
+
+    @Test
+    public void testSetAge(){
+        Cat newCat = new Cat("Daisy");
+        int catAge = newCat.setAge(20);
+        assertEquals(20, catAge, "failed");
+        if(catAge == 20){
+            System.out.println("The age is correct");
+        }else{
+            System.out.println("The age is incorrect");
+        }
+
+
+
+    }
+
+
 
 
 
