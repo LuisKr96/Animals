@@ -34,11 +34,29 @@ public class Main {
         newBat.makeASound();
         newBat.sleep();
         newBat.eatFood();
+        newBat.setTypeOfMammal("placental");
+        System.out.println(newBat.getTypeOfMammal());
+
+        newBat.lifeExpectancy = 30;
+        System.out.println(newBat.lifeExpectancy);
+
+
 
         newBat.setAge(16);
         System.out.println("The Bats age is " + newBat.getAge());
 
-         /* + " " + newBat.animalSound() + " " + newBat.eat()); */
+        System.out.println(newBat.insectsEaten);
+
+        System.out.println(newBat.getAge());
+
+        newBat.takeoff();
+        newBat.flight();
+        newBat.landing();
+
+        FoodDiet batDiet = FoodDiet.Omnivore;
+        newBat.foodToEat = String.valueOf(batDiet);
+        System.out.println(newBat.foodToEat);
+        System.out.println(batDiet);
 
 
     }

@@ -25,8 +25,8 @@ public class Cat extends Mammal  {
         return "The cat meows";
     }
 
-    public void makeASound() {
-        System.out.println("Meow");
+    public void makeASound(){
+        System.out.println("meow");
     }
 
     public void sleep() {

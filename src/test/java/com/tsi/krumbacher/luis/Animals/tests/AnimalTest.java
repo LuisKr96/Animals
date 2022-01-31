@@ -16,11 +16,7 @@ public class AnimalTest {
 
     @Test
     public void testAnimalSound(){
-        Bat newBat = new Bat("John");
         Cat newCat = new Cat("Harry");
-
-        String resultOfSound = newBat.animalSound();
-        assertEquals("BIG SOUND", resultOfSound,"Test failed");
 
         String result = newCat.animalSound();
         assertEquals("The cat meows", result, "test failed");
@@ -38,25 +34,13 @@ public class AnimalTest {
     public void testSetAge(){
         Cat newCat = new Cat("Daisy");
         int catAge = newCat.setAge(20);
-        assertEquals(20, catAge, "failed");
         if(catAge == 20){
             System.out.println("The age is correct");
         }else{
             System.out.println("The age is incorrect");
         }
-
-
-
+        assertEquals(20, catAge, "failed");
     }
-
-
-
-
-
-
-
-
-
 
 }
 

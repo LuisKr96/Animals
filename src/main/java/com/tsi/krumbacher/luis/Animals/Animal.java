@@ -7,6 +7,7 @@ public abstract class Animal {
     String colour;
     String sound;
     private int age;
+    private int size;
 
     //int age;
 
@@ -33,21 +34,13 @@ public abstract class Animal {
         return age;
     }
 
-
-
-    /* public abstract void eat(String food); */
-
-    public String getName(){
-        return name;
+    public int setSize (int size){
+        this.size = size;
+        return size;
     }
-    public void setName(String newName){
-
+    public int getSize (){
+        return size;
     }
-
-
-
-
-
     }
 
 

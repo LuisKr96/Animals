@@ -1,14 +1,14 @@
 package com.tsi.krumbacher.luis.Animals;
 
-public class Bat extends Mammal{
+public class Bat extends Mammal implements Flying{
     String nameOfBat;
     int lifeExpectancy;
-    private int age;
-
-
+    int insectsEaten;
 
     public Bat(String name){
         nameOfBat = name;
+        insectsEaten = 5;
+        lifeExpectancy =30;
     }
 
     public void makeASound(){
@@ -19,22 +19,17 @@ public class Bat extends Mammal{
         System.out.println("ZZZZZZZ");
     }
 
-    public int setAge(int age){
-        this.age = age;
-        return age;
-    }
-    public int getAge(){
-        return age;
+    public void takeoff() {
+        System.out.println("The bat is taking off");
     }
 
+    public void landing() {
+        System.out.println("The bat is landing");
 
-
-    public String animalSound(){
-        return "BIG SOUND";
     }
 
+    public void flight() {
+        System.out.println("The bat is flying");
+    }
 
-    /* public int setSize(int size) {
-        return 5;
-    }*/
 }

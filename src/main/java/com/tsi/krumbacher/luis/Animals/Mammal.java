@@ -4,7 +4,7 @@ public abstract class Mammal extends Animal {
 
     private int sizeInLength;
     private int weight;
-    private int size = 100;
+    private String typeOfMammal;
 
 
     public Mammal(){
@@ -14,17 +14,12 @@ public abstract class Mammal extends Animal {
 
     }
 
-
-    public int getSize(){
-        return size;
+    public String getTypeOfMammal(){
+        return typeOfMammal;
     }
-
-    public int setSize(int size){
-        this.size = size;
-        return size;
+    public void setTypeOfMammal(String newTypeOfMammal){
+        this.typeOfMammal = newTypeOfMammal;
     }
-
-
 
     public String Breathe(){
         return "this animal is breathing";
