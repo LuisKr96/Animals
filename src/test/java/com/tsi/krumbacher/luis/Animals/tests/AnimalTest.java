@@ -11,6 +11,7 @@ public class AnimalTest {
     @Test
     public void testGetSize() {
         Cat newCat = new Cat("Daisy");
+        newCat.setSize(100);
        assertEquals(100, newCat.getSize(), "TESTING");
     }
 
